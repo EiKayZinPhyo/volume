@@ -9,7 +9,7 @@ class HomePage extends StatefulWidget {
 
 class _HomePageState extends State<HomePage> {
   double _volume = 0.0;
-  int minvalue = 0;
+  // int minvalue = 0;
 
   void volumeup() {
     setState(() {
