@@ -35,9 +35,7 @@ class _HomePageState extends State<HomePage> {
               icon: const Icon(Icons.volume_up),
               tooltip: 'Increase volume by 10',
               onPressed: () {
-                setState(() {
-                  _volume += 10;
-                });
+                volumeup();
               },
             ),
             Text('Volume : $_volume'),
